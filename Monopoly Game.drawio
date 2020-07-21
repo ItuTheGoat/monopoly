@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-21T13:53:56.518Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="0enVs1rbYJVxuyZ6FQkS" version="13.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-21T13:55:26.740Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="pms7WR7ubNEXdid97ETz" version="13.4.9" type="github">
   <diagram id="Xss0RzR-oct2uypztryY" name="Page-1">
     <mxGraphModel dx="868" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -261,6 +261,12 @@
         </mxCell>
         <mxCell id="b4HhWst4_7GAa5L8suoH-57" value="Draw Card" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b4HhWst4_7GAa5L8suoH-58" value="Tax" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b4HhWst4_7GAa5L8suoH-59" value="Tax" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
