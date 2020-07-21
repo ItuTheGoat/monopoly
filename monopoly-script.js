@@ -221,3 +221,7 @@ function diceRoll() {
 
   return rollsArr;
 }
+
+// Just Trying stuff
+
+function buildBoard() {}
