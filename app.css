@@ -1,32 +1,27 @@
-.top-row {
-  display: flex;
-  flex-direction: row;
+.board {
+  display: grid;
+  grid-template-columns: 120px repeat(9, 75px) 120px;
+  grid-template-rows: 120px repeat(9, 75px) 120px;
+  justify-content: center;
 }
 
-.left-col {
+.block {
+  border: black solid 1px;
+  text-align: center;
+  background-color: #8fff7e;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.large {
+  padding-top: 2em;
+}
+
+.jail {
   display: flex;
   flex-direction: column;
 }
 
-.loc-row {
-  display: flex;
-  outline: solid black 1px;
-  height: 240px;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-}
-
-.loc-col {
-  display: flex;
-  outline: solid black 1px;
-  height: 120px;
-  align-items: center;
-  justify-content: center;
-  width: 240px;
-}
-
-.corner-block {
-  height: 240;
-  width: 240px;
+.middle {
+  grid-area: 2 / 2 / 4 / 11;
 }
