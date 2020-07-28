@@ -34,3 +34,16 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.dice {
+  width: 50px;
+  height: 50px;
+  border: black solid 1px;
+}
+
+.piece {
+  width: 20px;
+  height: 20px;
+  border: black solid 1px;
+  background-color: blue;
+}
