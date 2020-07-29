@@ -1,34 +1,59 @@
 body {
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
+  text-align: center;
+  background-image: url(bg-monopoly.jpg);
+}
+
+.container {
+  display: inline-flex;
+  justify-content: center;
 }
 
 .board {
   display: grid;
-  grid-template-columns: 100px repeat(9, 70px) 100px;
-  grid-template-rows: 100px repeat(9, 70px) 100px;
-  justify-content: center;
+  grid-template-columns: 120px repeat(9, 80px) 120px;
+  grid-template-rows: 120px repeat(9, 80px) 120px;
+  background-color: #8fff7e;
+  border: black 12px solid;
 }
 
 .block {
   display: flex;
+  flex-direction: column;
   border: black solid 1px;
-  background-color: #8fff7e;
   justify-content: center;
   align-items: center;
 }
 
+.location,
+.price {
+  flex: 1;
+}
+
+.location {
+  font-weight: bold;
+}
+.price {
+  text-align: end;
+}
+.property {
+  flex: 1;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}
+
 .large {
   justify-content: center;
-  font-size: 24px;
-  font-size: 1.5vw;
+  font-size: 16px;
 }
 
 .jail {
   flex-direction: column;
 }
 
-.middle {
+.center {
   display: flex;
   grid-area: 2 / 2 / 11 / 11;
   justify-content: center;
@@ -39,6 +64,7 @@ body {
   width: 50px;
   height: 50px;
   border: black solid 1px;
+  margin: 8px;
 }
 
 .piece {
