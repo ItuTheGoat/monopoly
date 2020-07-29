@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monopoly - Welcome Page</title>
+    <link rel="stylesheet" href="app.css" />
+    <script src="monopoly-script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="welcome-container">
+        <h1>Monopoly</h1>
+
+        <p>Welcome to Monopoly, the Quick-Dealing Property Trading Game</p>
+
+        <form action="#">
+          <div class="form-control">
+            <label for="numPlayers">How many players?</label>
+            <input
+              type="number"
+              name="numPlayers"
+              id="numPlayers"
+              required
+              min="2"
+              max="6"
+            />
+          </div>
+          <div class="form-control">
+            <label for="playerOne">Player 1: </label>
+            <input type="text" name="playerOne" id="playerOne" required />
+          </div>
+          <button>Start Game</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
