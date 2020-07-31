@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monopoly - Welcome Page</title>
+    <script src="welcome.js"></script>
     <link rel="stylesheet" href="app.css" />
     <script src="monopoly-script.js"></script>
   </head>
@@ -24,13 +25,21 @@
               required
               min="2"
               max="6"
-            />
+            /><button onclick="initNumPlayers()">Save</button>
           </div>
+
           <div class="form-control">
             <label for="playerOne">Player 1: </label>
-            <input type="text" name="playerOne" id="playerOne" required />
+            <input
+              type="text"
+              name="playerOne"
+              id="playerOne"
+              required
+              disabled
+            />
           </div>
-          <button>Start Game</button>
+          <button disabled>Next Player Name</button>
+          <button type="submit" disabled>Start Game</button>
         </form>
       </div>
     </div>
