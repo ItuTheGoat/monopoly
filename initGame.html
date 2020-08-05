@@ -6,7 +6,6 @@
     <title>Monopoly - Welcome Page</title>
     <script src="welcome.js"></script>
     <link rel="stylesheet" href="app.css" />
-    <script src="monopoly-script.js"></script>
   </head>
   <body>
     <div class="container">
@@ -25,11 +24,11 @@
               required
               min="2"
               max="6"
-            /><button onclick="initNumPlayers()">Save</button>
+            /><button type="button" onclick="initNumPlayers()" id="save">Save</button>
           </div>
 
           <div class="form-control">
-            <label for="playerOne">Player 1: </label>
+            <label for="playerOne" id="player">Player 1: </label>
             <input
               type="text"
               name="playerOne"
@@ -38,8 +37,8 @@
               disabled
             />
           </div>
-          <button disabled>Next Player Name</button>
-          <button type="submit" disabled>Start Game</button>
+          <button type="button" disabled onclick="nextPlayer()" id="next">Next Player Name</button>
+          <button type="button" disabled onclick="startGame()" id="start">Start Game</button>
         </form>
       </div>
     </div>
